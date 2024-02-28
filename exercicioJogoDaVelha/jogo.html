@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="./jogo.css">
+    <script src="./jogo.js" defer></script>
+</head>
+
+<body id="jogoDaVelha">
+    <h1>Jogo da Velha</h1>
+    <hr>
+
+    <section id="jogadores">
+
+        <label for="">Jogador 1 (X):</label>
+        <input id="jogador1" type="text">
+
+        <label for="">Jogador 2 (O):</label>
+        <input id="jogador2" type="text">
+
+        <button id="iniciar" onclick="iniciar()">Iniciar</button>
+
+
+        <h3 id="jogada"></h3>
+    </section>
+    
+    <div id="espaco">
+        <section id="jogo">
+            <button id="botao0" class="tecla" data-value="0"></button>
+            <button id="botao1" class="tecla" data-value="1"></button>
+            <button id="botao2" class="tecla" data-value="2"></button>
+            <button id="botao3" class="tecla" data-value="3"></button>
+            <button id="botao4" class="tecla" data-value="4"></button>
+            <button id="botao5" class="tecla" data-value="5"></button>
+            <button id="botao6" class="tecla" data-value="6"></button>
+            <button id="botao7" class="tecla" data-value="7"></button>
+            <button id="botao8" class="tecla" data-value="8"></button>
+        </section>
+        
+    </div>
+</body>
+
+</html>

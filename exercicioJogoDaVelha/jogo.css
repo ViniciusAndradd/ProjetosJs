@@ -1,0 +1,56 @@
+#espaco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+#jogo {
+    background-color: black;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    text-align: center;
+    border-radius: 15px;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)*/
+}
+
+.tecla {
+    height: 155px;
+    margin: 5px;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 3em;
+    color: black;
+}
+
+.tecla:hover {
+    background-color: gray;
+}
+
+.disable {
+    background-color: gray;
+    color: black;
+}
+
+.disableVencedor{
+    background-color: green;
+    color: white;
+}
+
+#textoVencedor {
+    text-align: center;
+    font-size: 2em;
+}
+
+#velha {
+    text-align: center;
+    font-size: 2em;
+    color: red;
+}
